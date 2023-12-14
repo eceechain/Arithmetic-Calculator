@@ -46,3 +46,13 @@ A versatile Python arithmetic calculator that allows users to perform basic oper
 
 ```bash
 python arithmetic_calculator.py
+```
+## Contributors
+Ecee
+Annette
+Dave
+Ali
+Tracey
+
+## License
+ MIT License
