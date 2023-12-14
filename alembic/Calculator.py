@@ -1,4 +1,4 @@
 # Component 4: Output
 def main():
-    result = None  # Initialize result variable
+    result = None  
     memory = None  # Initialize memory variable
