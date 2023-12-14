@@ -45,4 +45,7 @@ if choice in ('1', '2', '3', '4'):
         elif choice == '4':
             result = divide(num1, num2)
 
-        
+        # Display the result
+        print("Result: ", result)
+else:
+    print("Invalid input. Please enter a valid choice (1/2/3/4/5).")
