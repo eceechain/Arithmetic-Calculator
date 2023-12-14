@@ -29,3 +29,10 @@ if choice == '5':
         print("Exiting the calculator. Goodbye!")
         break  # Exit the loop
 
+# Perform the operation based on user's input
+ # Check if the choice is valid
+if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+
+
