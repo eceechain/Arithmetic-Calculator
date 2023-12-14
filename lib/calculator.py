@@ -11,4 +11,12 @@ def divide(x, y):
     if y != 0:
         return x / y
     else:
-        return "Error: Division by zero"
+        return "Error!!"
+    while True:
+     #menu
+        print("Select operation:")
+        print("1. Add")
+        print("2. Subtract")
+        print("3. Multiply")
+        print("4. Divide")
+        print("5. Exit")
