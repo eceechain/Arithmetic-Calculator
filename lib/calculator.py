@@ -10,23 +10,29 @@ def button_press (num):
 
 
 
-import tkinter as tk
-
 def equals():
-    global equation_text
+    
+      global equation_text
 
-    try:
+      try:
+
         total = str(eval(equation_text))
-        equation_label.config(text=equation_text + "=" + total)
+
+        equation_label.set(total)
+
         equation_text = total
 
-    except SyntaxError:
-        equation_label.config(text="Syntax error")
+      except SyntaxError:
+        equation_label.set("syntax error")
+
         equation_text = ""
 
-    except ZeroDivisionError:
-        equation_label.config(text="Arithmetic error")
+      except ZeroDivisionError:
+
+        equation_label.set("arithmetic error")
+
         equation_text = ""
+
 
 def clear():
      
