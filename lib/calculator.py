@@ -7,23 +7,36 @@ def button_press (num):
      equation_text = equation_text + str(num)
 
      equation_label.set(equation_text)
-     
 
+
+
+import tkinter as tk
 
 def equals():
-    
     global equation_text
 
-    total = str(eval(equation_text))
-    
-    equation_label.set(total)
+    try:
+        total = str(eval(equation_text))
+        equation_label.config(text=equation_text + "=" + total)
+        equation_text = total
 
-    equation_text = total
+    except SyntaxError:
+        equation_label.config(text="Syntax error")
+        equation_text = ""
 
-   
+    except ZeroDivisionError:
+        equation_label.config(text="Arithmetic error")
+        equation_text = ""
 
 def clear():
-    pass
+     
+    
+
+     global equation_text
+
+     equation_label.set("")
+
+     equation_text = ""
 
 
 window = Tk()
@@ -104,7 +117,7 @@ decimal = Button(frame, text='.', height=4, width=9, font=35,
                  command=lambda: button_press('.'))
 decimal.grid(row=3, column=0)
 
-clear = Button(window, text='clear', height=4, width=12, font=35,
+clear = Button(window, text='clear', height=4, width=15, font=35,
                  command=clear)
 
 clear.pack()
