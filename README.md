@@ -1,58 +1,62 @@
-# Python Arithmetic Calculator
+## Using the Python Arithmetic Calculator
 
-## Overview
+### Step-by-Step Guide
 
-A versatile Python arithmetic calculator that allows users to perform basic operations with ease. This calculator includes features such as user input, arithmetic operations, error handling, output display, and looping.
+1. **Clone the Repository**:
+   - Open your terminal and navigate to the directory where you want to store the calculator.
+   - Run the following command to clone the repository:
+     ```bash
+     git clone https://github.com/your-username/arithmetic-calculator.git
+     ```
 
-## Components
+2. **Navigate to the Project Directory**:
+   - Move into the project directory using the `cd` command:
+     ```bash
+     cd arithmetic-calculator
+     ```
 
-### 1. User Input
+3. **Install Dependencies**:
+   - If you don't have Pipenv installed, you can do so using pip (Python's package installer):
+     ```bash
+     pip install pipenv
+     ```
+   - Once Pipenv is installed, run the following command to install the project's dependencies:
+     ```bash
+     pipenv install
+     ```
 
-- Prompt the user to input two operands and the desired arithmetic operation.
-- Support for integers or floating-point numbers.
+4. **Activate the Virtual Environment**:
+   - To activate the virtual environment, use the following command:
+     ```bash
+     pipenv shell
+     ```
 
-### 2. Arithmetic Operations
+5. **Run the Program**:
+   - Finally, run the program using Python:
+     ```bash
+     python arithmetic_calculator.py
+     ```
 
-- Support the following arithmetic operations:
-  - Addition (+)
-  - Subtraction (-)
-  - Multiplication (*)
-  - Division (/)
-  - Modulo (%)
+### How to Use
 
-### 3. Error Handling
+1. **Start the Program**: Simply run the calculator in Python by executing the command:
+     ```bash
+     python arithmetic_calculator.py
+     ```
 
-- Robust error handling to manage potential issues:
-  - Division by zero: Displays an error message and prompts the user to enter valid inputs.
-  - Invalid operation: Alerts the user if an unsupported operation is chosen.
+2. **Enter Numbers and Operation**: Input two numbers when prompted and choose the math operation you want to perform (e.g., addition, subtraction, multiplication, division).
 
-### 4. Output
+3. **See the Result**: The calculator will display the result of your math operation in a clear and easy-to-understand format.
 
-- Clear and formatted output displaying the result of the arithmetic operation.
+4. **Repeat or Exit**: You can continue doing more calculations as the calculator runs in a loop, or exit anytime you like.
 
-### 5. Looping
+Now you're all set to use the Python Arithmetic Calculator and perform various math operations with ease! If you have any questions, feel free to ask.
 
-- Program runs in a loop, allowing users to perform multiple calculations without restarting.
-- Option to exit the calculator at any time.
+### Contributors
+- Ecee
+- Annette
+- Dave
+- Ali
+- Tracey
 
-## How to Use
-
-1. Run the program in a Python environment.
-2. Follow on-screen prompts to input operands and select an arithmetic operation.
-3. View the result or error message.
-4. Choose to perform another calculation or exit the calculator.
-
-## Example Usage
-
-```bash
-python arithmetic_calculator.py
-```
-## Contributors
-Ecee
-Annette
-Dave
-Ali
-Tracey
-
-## License
- MIT License
+---
