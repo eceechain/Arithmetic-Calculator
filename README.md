@@ -1,58 +1,38 @@
-# Python Arithmetic Calculator
+# CALCULATOR PROGRAM
 
-## Overview
+# OVERVIEW
 
-A versatile Python arithmetic calculator that allows users to perform basic operations with ease. This calculator includes features such as user input, arithmetic operations, error handling, output display, and looping.
+This is a simple calculator program built using the Tkinter library in Python. The calculator provides a basic graphical user interface for performing arithmetic calculations.
 
-## Components
+# Features
+Addition, subtraction, multiplication, and division operations.
+Decimal point for floating-point numbers.
+Error handling for invalid mathematical expressions.
+Delete button to remove the last entered character.
+Clear button to reset the calculator.
+  # Requirements
 
-### 1. User Input
+Python 3.x
+Tkinter library (usually included with Python)
 
-- Prompt the user to input two operands and the desired arithmetic operation.
-- Support for integers or floating-point numbers.
 
-### 2. Arithmetic Operations
+# INSTALLATION
+CLone the repository
+git clone `git@github.com:eceechain/Arithmetic-Calculator.git`
 
-- Support the following arithmetic operations:
-  - Addition (+)
-  - Subtraction (-)
-  - Multiplication (*)
-  - Division (/)
-  - Modulo (%)
+Navidate to the project directory using 
+cd `Arithmetic-Calculator`
 
-### 3. Error Handling
+Install dependancies
+`sudo apt-get update`
+`sudo apt-get install python3-tk`
 
-- Robust error handling to manage potential issues:
-  - Division by zero: Displays an error message and prompts the user to enter valid inputs.
-  - Invalid operation: Alerts the user if an unsupported operation is chosen.
 
-### 4. Output
 
-- Clear and formatted output displaying the result of the arithmetic operation.
-
-### 5. Looping
-
-- Program runs in a loop, allowing users to perform multiple calculations without restarting.
-- Option to exit the calculator at any time.
-
-## How to Use
-
-1. Run the program in a Python environment.
-2. Follow on-screen prompts to input operands and select an arithmetic operation.
-3. View the result or error message.
-4. Choose to perform another calculation or exit the calculator.
-
-## Example Usage
-
-```bash
-python arithmetic_calculator.py
-```
-## Contributors
-Ecee
-Annette
-Dave
-Ali
-Tracey
-
-## License
- MIT License
+ # Usage
+Enter numeric values using the number buttons (0-9).
+Use the operator buttons (+, -, *, /) to perform arithmetic operations.
+Press the "=" button to calculate the result.
+Press the "." button to input decimal points.
+Use the "Delete" button to remove the last entered character.
+Click the "Clear" button to reset the calculator.
